@@ -1,0 +1,447 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Open Sans, serif;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+/*--------------------------//////---------------------------------------------------*/
+/*--------------------------NAVBAR---------------------------------------------------*/
+/*--------------------------//////---------------------------------------------------*/
+
+
+nav {
+    height: 72px;
+    display: flex;
+    position: relative;
+    box-shadow: 0 2px 4px #00000026;
+    background: #fff;
+
+}
+
+.navbar {
+    margin-top: 5px;
+    margin-left: 40vw;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    padding: 4px 12px 4px 16px;
+}
+
+.navbar ul a span {
+    font-size: 16px;
+    font-family: Open Sans, serif;
+    color: #363636;
+}
+
+.navbar ul a {
+    text-decoration: none;
+    padding: 4px 12px 4px 16px;
+}
+
+.home {
+    font-family: Open Sans, serif;
+    letter-spacing: 0;
+    border-bottom: 2px solid blue;
+}
+
+.logoimg {
+    margin-left: 5vw;
+    height: 70px;
+    width: 150px;
+}
+
+.navbar ul a:hover {
+    cursor: hand;
+    background-color: rgb(170, 170, 170);
+}
+
+
+/*--------------------------//////---------------------------------------------------*/
+/*---------------------------MAIN----------------------------------------------------*/
+/*--------------------------//////---------------------------------------------------*/
+
+main {
+    margin-top: 4vw;
+    margin-left: 8vw;
+}
+
+.main_body {
+    display: flex;
+    gap: 6em;
+}
+
+/*--------------------------Recommendation session-----------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+
+
+.recommed h1 {
+    font-family: Open Sans, ;
+    letter-spacing: 0;
+    font-size: 1.5em;
+}
+
+.first {
+    margin-top: 20px;
+    display: flex;
+    gap: 4em;
+    flex-direction: column;
+}
+
+.details {
+    display: flex;
+    gap: 10px;
+}
+
+.info {
+    background-color: white;
+    padding: 20px;
+    height: 150px;
+    width: 250px;
+    border: 1px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px #cfd8dc66;
+}
+
+/*--------------------------------Python & Java--------------------------------------*/
+
+
+#pyinfo {
+    height: 170px;
+}
+
+.python {
+    display: flex;
+}
+
+.pythonlogo {
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.pythoninfo p {
+    width: fit-content;
+    margin-top: 8px;
+    font-size: 10px;
+    line-height: 140%;
+    color: #455a64;
+    padding: 2px 6px;
+    border-radius: 2px;
+    border: 1px solid #CFD8DC;
+
+}
+
+.line {
+    margin: 20px;
+    height: 1px;
+    background-color: #e0e0e0;
+    width: 14em;
+    /* border: 1px solid black; */
+}
+
+
+/*---------------------------------Start Button--------------------------------------*/
+
+.start {
+    margin-top: 1.5em;
+    display: flex;
+    height: 1.5em;
+    width: 14em;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    font-family: Open Sans, serif;
+    color: #363636;
+    text-decoration: none;
+    background-color: rgb(39, 39, 255);
+    color: white;
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+
+.starts {
+    display: flex;
+    justify-content: center;
+    color: white;
+
+}
+
+.starts::hover {
+    cursor: grab;
+}
+
+
+/*----------------------------------More Courses-------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+
+
+.More {
+    margin-top: 5vh;
+}
+
+.markdown {
+    display: flex;
+    gap: 25em;
+}
+
+.More h1 {
+    font-family: Open Sans, ;
+    letter-spacing: 0;
+    font-size: 1.5em;
+}
+
+.chart {
+    margin-top: 20px;
+    display: flex;
+    gap: 1em;
+}
+
+/*--------------------------------Python Java & C++---------------------------------*/
+
+.moreinfo {
+    display: flex;
+    padding: 20px;
+    background: white;
+    height: 10.5em;
+    width: 10.5em;
+    border: 1px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px #cfd8dc66;
+}
+
+.moreinfo :hover {
+    cursor: grab;
+}
+
+
+/*----------------------------------------Assess-------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+
+.assess h2 {
+    font-family: Open Sans, ;
+    letter-spacing: 0;
+    font-size: 1.5em;
+}
+
+.box {
+    margin-top: 15px;
+    padding: 20px;
+    background: white;
+    height: 3.5em;
+    width: 20.5em;
+    border: 1px;
+    border-radius: 8px;
+    box-shadow: -8px 0px 1px 0px violet;
+}
+
+
+.countdown {
+    display: flex;
+    padding: 10px;
+    gap: 6em;
+}
+
+.time p:nth-child(2) {
+    color: blue;
+}
+
+/*--------------------------------------Button---------------------------------------*/
+
+.buttonn {
+    background: gray;
+    height: 39px;
+    width: 122px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 9px;
+}
+
+.buttonn:hover {
+    cursor: grab;
+    height: 41px;
+    width: 125px;
+}
+
+/*-------------------------------------Comments--------------------------------------*/
+
+
+.comments {
+    font-size: 16px;
+}
+
+/*--------------------------//////---------------------------------------------------*/
+/*-------------------------SLIDEBAR-------------------------------------------------*/
+/*--------------------------//////---------------------------------------------------*/
+
+
+/*------------------------------------Daily Streak-----------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+
+.daily {
+    margin-top: 15px;
+    padding: 20px;
+    background: white;
+    height: 13.5em;
+    width: 20.5em;
+    border: 1px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px #cfd8dc66;
+}
+
+.dailyhead {
+    display: flex;
+    gap: 6em;
+}
+
+/*-------------------------------------DAY Count-------------------------------------*/
+
+.dailydate {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.current {
+    padding-right: 10px;
+    border-right: 2px solid black;
+    margin-right: 10px;
+}
+
+.longest {
+    padding-right: 10px;
+    border-right: 2px solid black;
+    margin-right: 10px;
+}
+
+.freeze p {
+    color: blueviolet;
+}
+
+/*---------------------------------------DAYS----------------------------------------*/
+
+.days {
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 4px;
+}
+
+.days :nth-child(5) {
+    background-color: #455a64;
+    color: white;
+}
+
+.day {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 8px;
+    border: 1px;
+    border-radius: 8px;
+    height: 62px;
+    width: 35px;
+}
+
+.circle {
+    height: 25px;
+    width: 25px;
+    background: gainsboro;
+    border: 1px solid gainsboro;
+    border-radius: 15px;
+}
+
+/*--------------------------------------Manage---------------------------------------*/
+
+.manage {
+    margin-top: 15px;
+    padding: 20px;
+    background: white;
+    height: 6.5em;
+    width: 20.5em;
+    border: 1px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px #cfd8dc66;
+}
+
+.managehead {
+    display: flex;
+    gap: 4em;
+    padding-bottom: 15px;
+}
+
+/*--------------------------------------Discuss--------------------------------------*/
+
+.discuss {
+    margin-top: 15px;
+    padding: 20px;
+    background: white;
+    height: 3.5em;
+    width: 20.5em;
+    border: 1px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px #cfd8dc66;
+}
+
+.discusshead {
+    display: flex;
+    gap: 4em;
+    padding-bottom: 15px;
+}
+
+
+/*--------------------------------//////---------------------------------------------*/
+/*--------------------------------Footer---------------------------------------------*/
+/*-------------------------------//////----------------------------------------------*/
+
+footer {
+    color: white;
+    width: 100%;
+    background: #2e3444;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0em 8em 0em 8em;
+    padding-top: 2em;
+    padding-bottom: 15px;
+}
+
+
+.footerss{
+    margin-top: 10px;
+}
+
+.footertext a{
+    text-decoration: none;
+    color: white;
+    padding: 4px;
+}
+
+footertext a:hover{
+    border-bottom: 1px solid white;
+}
+
+.viewall{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 70px;
+    border :1px solid black; 
+    border-radius: 5px;
+}
