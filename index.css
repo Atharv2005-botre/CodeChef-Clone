@@ -1,10 +1,11 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Open Sans, serif;
+    /* font-family: open-sans, serifserif; */
 }
 
 body {
+    font-family: "Helvetica Neue", "Helvetica Arial", sans-serif;
     background-color: whitesmoke;
 }
 
@@ -23,8 +24,8 @@ nav {
 }
 
 .navbar {
-    margin-top: 5px;
-    margin-left: 40vw;
+    margin-top: 3vh;
+    margin-left: 35vw;
 }
 
 .navbar ul {
@@ -34,8 +35,8 @@ nav {
 }
 
 .navbar ul a span {
-    font-size: 16px;
-    font-family: Open Sans, serif;
+    font-size: 1em;
+    font-family: open-sans, serifserif;
     color: #363636;
 }
 
@@ -45,15 +46,15 @@ nav {
 }
 
 .home {
-    font-family: Open Sans, serif;
+    font-family: open-sans, serifserif;
     letter-spacing: 0;
     border-bottom: 2px solid blue;
 }
 
 .logoimg {
-    margin-left: 5vw;
-    height: 70px;
-    width: 150px;
+    /* margin-left: 5vw; */
+    height: 10vh;
+    width: 18vw;
 }
 
 .navbar ul a:hover {
@@ -81,7 +82,7 @@ main {
 
 
 .recommed h1 {
-    font-family: Open Sans, ;
+    font-family: open-sans, serif;
     letter-spacing: 0;
     font-size: 1.5em;
 }
@@ -95,6 +96,7 @@ main {
 
 .details {
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
 }
 
@@ -121,8 +123,8 @@ main {
 
 .pythonlogo {
     margin: 10px;
-    height: 50px;
-    width: 50px;
+    height: 5vw;
+    width: 5vw;
     border: 2px solid black;
     border-radius: 10px;
 }
@@ -158,7 +160,7 @@ main {
     justify-content: center;
     align-items: center;
     font-size: 17px;
-    font-family: Open Sans, serif;
+    font-family: open-sans, serifserif;
     color: #363636;
     text-decoration: none;
     background-color: rgb(39, 39, 255);
@@ -193,7 +195,7 @@ main {
 }
 
 .More h1 {
-    font-family: Open Sans, ;
+    font-family: open-sans, serif;
     letter-spacing: 0;
     font-size: 1.5em;
 }
@@ -226,7 +228,7 @@ main {
 /*-----------------------------------------------------------------------------------*/
 
 .assess h2 {
-    font-family: Open Sans, ;
+    font-family: open-sans, serif;
     letter-spacing: 0;
     font-size: 1.5em;
 }
@@ -421,27 +423,195 @@ footer {
 }
 
 
-.footerss{
+.footerss {
     margin-top: 10px;
 }
 
-.footertext a{
+.footertext a {
     text-decoration: none;
     color: white;
     padding: 4px;
 }
 
-footertext a:hover{
+footertext a:hover {
     border-bottom: 1px solid white;
 }
 
-.viewall{
+.viewall {
     text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 20px;
     width: 70px;
-    border :1px solid black; 
+    border: 1px solid black;
     border-radius: 5px;
+}
+
+/*--------------------------------//////---------------------------------------------*/
+/*--------------------------------Media Query----------------------------------------*/
+/*-------------------------------//////----------------------------------------------*/
+
+
+
+/*-----------------------------Smart Phone-------------------------------------------*/
+@media screen and (max-width: 412px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar {
+        width: 99vw;
+        margin-left: 1%;
+        margin-top: -2vh;
+        background: #fff;
+    }
+
+    body {
+        width: 95%;
+    }
+
+    .logoimg {
+        height: 75px;
+        width: 75px;
+    }
+
+    nav {
+        width: 100vw;
+        height: 7vh;
+        display: block;
+    }
+
+    .navbar ul a span {
+        margin-top: 10vw;
+        font-size: 3vw;
+    }
+
+    main {
+        margin-top: 17vw;
+        margin-left: 5vw;
+    }
+
+    .main_body {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .first {
+        display: block;
+    }
+
+    .markdown {
+        display: flex;
+        align-items: center;
+        gap: 45vw;
+    }
+
+    .details {
+        width: 90vw;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        /* margin-left: 2px; */
+    }
+
+    .pythoninfo h2 {
+        padding: 15px;
+        font-size: 10px;
+    }
+
+    .info {
+        flex-grow: 1;
+        flex-basis: 200px;
+    }
+
+    .recommed h1 {
+        font-size: 10px;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .box {
+        height: 16vh;
+        width: 80vw;
+    }
+
+    .chart {
+        display: flex;
+        gap: 16px;
+        overflow-x: scroll;
+        width: 100%;
+        padding: 20px 0
+    }
+
+    .moreinfo {
+        width: 55%;
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 20px;
+        padding: 10px;
+        flex: none;
+    }
+
+    .morepython {
+        width: 75%;
+    }
+
+
+    .viewall {
+        display: block;
+        /* margin-left: 45vw; */
+    }
+
+    .pythonlogo {
+        height: 15vw;
+        width: 15vw;
+    }
+
+    .buttonn {
+        height: 30px;
+        width: 120px;
+    }
+
+    footer {
+        width: 105%;
+    }
+
+    .footer {
+        margin-top: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .comments {
+        text-overflow: clip;
+    }
+
+    .footerss {
+        width: 150px;
+    }
+
+    .daily {
+        height: 30vh;
+        width: 80vw;
+    }
+
+    .days {
+        height: 7vh;
+        width: 75vw;
+    }
+
+    .day {
+        height: 5.2vh;
+        width: 8vw;
+        padding: 2.5vw;
+    }
 }
